@@ -44,7 +44,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\pain.cs" />
      <Compile Include="Assets\scripts\charactercontrol.cs" />
      <Compile Include="Assets\scripts\hoop.cs" />
   </ItemGroup>
