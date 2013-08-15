@@ -44,17 +44,22 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AudioTrigger.cs" />
      <Compile Include="Assets\MusicTurnedOff.cs" />
-     <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\ToExpel\camerazoom.cs" />
+     <Compile Include="Assets\ToExpel\handSlap.cs" />
+     <Compile Include="Assets\ToExpel\stageMove.cs" />
+     <Compile Include="Assets\mylerp.cs" />
+     <Compile Include="Assets\opening.cs" />
+     <Compile Include="Assets\range.cs" />
+     <Compile Include="Assets\script\AudioTrigger.cs" />
+     <Compile Include="Assets\script\GameLogic.cs" />
+     <Compile Include="Assets\script\down.cs" />
+     <Compile Include="Assets\script\mosquitoClick.cs" />
+     <Compile Include="Assets\script\mosquitoScream.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{8B4F311D-3CE2-CEFB-B9F4-F8C56A9DBFB9}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
